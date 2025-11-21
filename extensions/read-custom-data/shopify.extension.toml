@@ -9,6 +9,7 @@ api_version = "2025-10"
 name = "read-custom-data"
 handle = "read-custom-data"
 type = "ui_extension"
+uid = "f46fa293-fd0d-bdce-90c1-2201705aad7f4cd4a809"
 
 # Controls where in Shopify your extension will be injected,
 # and the file that contains your extension’s source code. Learn more:
