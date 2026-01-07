@@ -110,8 +110,8 @@ importers:
         specifier: ~2025.10.0-rc
         version: 2025.10.0-rc.24
       preact:
-        specifier: ^10.10.x
-        version: 10.27.1
+        specifier: ^10.27.x
+        version: 10.27.3
 
 packages:
 
@@ -856,6 +856,7 @@ packages:
   '@graphql-tools/prisma-loader@8.0.17':
     resolution: {integrity: sha512-fnuTLeQhqRbA156pAyzJYN0KxCjKYRU5bz1q/SKOwElSnAU4k7/G1kyVsWLh7fneY78LoMNH5n+KlFV8iQlnyg==}
     engines: {node: '>=16.0.0'}
+    deprecated: 'This package was intended to be used with an older versions of Prisma.\nThe newer versions of Prisma has a different approach to GraphQL integration.\nTherefore, this package is no longer needed and has been deprecated and removed.\nLearn more: https://www.prisma.io/graphql'
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
@@ -3989,8 +3990,8 @@ packages:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact@10.27.1:
-    resolution: {integrity: sha512-V79raXEWch/rbqoNc7nT9E4ep7lu+mI3+sBmfRD4i1M73R3WLYcCtdI0ibxGVf4eQL8ZIz2nFacqEC+rmnOORQ==}
+  preact@10.27.3:
+    resolution: {integrity: sha512-ZieIP3zQHiQsNF3BA+SNVS8dcuRIg/nsxlkFbCMBLS2L1Ww4Bkxd9n6Md2A1crfTZsEbQPADV0neYmh/EElgeQ==}
 
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -6134,10 +6135,10 @@ snapshots:
   '@preact/signals-core@1.12.1':
     optional: true
 
-  '@preact/signals@2.3.1(preact@10.27.1)':
+  '@preact/signals@2.3.1(preact@10.27.3)':
     dependencies:
       '@preact/signals-core': 1.12.1
-      preact: 10.27.1
+      preact: 10.27.3
     optional: true
 
   '@prisma/client@6.15.0(prisma@6.15.0(typescript@5.9.2))(typescript@5.9.2)':
@@ -6569,8 +6570,8 @@ snapshots:
     dependencies:
       ts-morph: 25.0.1
     optionalDependencies:
-      '@preact/signals': 2.3.1(preact@10.27.1)
-      preact: 10.27.1
+      '@preact/signals': 2.3.1(preact@10.27.3)
+      preact: 10.27.3
 
   '@standard-schema/spec@1.0.0': {}
 
@@ -9697,7 +9698,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact@10.27.1: {}
+  preact@10.27.3: {}
 
   prelude-ls@1.2.1: {}
 
